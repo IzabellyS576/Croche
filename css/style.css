@@ -59,32 +59,26 @@ a{
 
 }
 #portifolio{
-    display:inline-table;
-    text-align: center;
+    display:grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
     border: solid 10px #e0e0a0;
     border-radius: 20px;
-    margin-top:15px;
+    margin-top: 15px;
+    padding-top: 15px;
 }
 #portifolio img{
     width:90%;
     margin-bottom: 0px;
+    margin-top:10px;
     border-radius: 20px;
-    border: solid 1px black;
 }
-#portifolio li{
-    width: 30%;
-    margin: 1.4%;
-    margin-top:5px;
-    padding: 0;
-    display:inline-block;
+.item{
     font-weight: bolder;
     color:#989a35;
-    border: solid 1px red;
 }
 #portifolio p{
-    border: solid 1px green;
-    padding: 0px;
-    box-sizing: border-box;
+    margin-top:0;
 }
 #menuPrincipal{
     width:100%;
